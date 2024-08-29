@@ -1,0 +1,15 @@
+openai
+sentence-transformers
+langchain
+pypdf
+langchain-openai
+llama-index
+llama-index-readers-github
+nest-asyncio
+llama-index-llms-ollama
+llama-index-llms-openai
+streamlit
+anytree
+streamlit_agraph
+python-dotenv
+llama-index-embeddings-openai
