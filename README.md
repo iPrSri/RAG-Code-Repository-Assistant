@@ -1,13 +1,16 @@
-# GitHub Repository Q&A Tool
+# RAG-Code-Repository-Assistant
 
-This project creates a Q&A system for GitHub repositories using LlamaIndex and OpenAI.
+This is a full-stack Retrieval Augmented Generation (RAG) App that helps browse and query new code-bases via chat. We generate and store embeddings for a given repository in advance, and then when a user asks a question, we retrieve relevant code snippets and provide them to the LLM as context.
+
+<img width="965" alt="image" src="https://github.com/user-attachments/assets/65227b08-3f40-429a-8866-d1f477444d94">
+
 
 ## Setup
 
 1. Clone this repository:
    ```
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/iPrSri/RAG-Code-Repository-Assistant
+   cd RAG-Code-Repository-Assistant
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -23,15 +26,11 @@ This project creates a Q&A system for GitHub repositories using LlamaIndex and O
 
 4. Run the script:
    ```
-   python tech16_class3_rag_pramod.py
+   streamlit run app.py
    ```
 
 5. When prompted, enter your OpenAI API key and GitHub token.
 
 ## Usage
 
-The script will index two GitHub repositories:
-1. domarps/papers-i-read
-2. domarps/llama2.c
-
-After indexing, you can ask questions about each repository. Type 'quit' to move to the next repository or exit the program.
+After indexing, you can ask questions about a given repository. Type 'quit' to move to the next repository or exit the program.
