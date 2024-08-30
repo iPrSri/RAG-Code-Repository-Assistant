@@ -2,7 +2,8 @@
 
 This is a full-stack Retrieval Augmented Generation (RAG) App that helps browse and query new code-bases via chat. We generate and store embeddings for a given repository in advance, and then when a user asks a question, we retrieve relevant code snippets and provide them to the LLM as context.
 
-<img width="967" alt="image" src="https://github.com/user-attachments/assets/e816fc72-1236-4ba9-a0f0-c88edd95e76c">
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/4244d575-930c-4d8b-8983-19bea7cd7ff5">
+
 
 
 
